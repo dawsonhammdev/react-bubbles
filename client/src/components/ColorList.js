@@ -24,7 +24,7 @@ const ColorList = ({ colors, updateColors }) => {
   console.log(editing);
 
   const saveEdit = e => {
-    e.preventDefault();
+    // e.preventDefault();
     // Make a put request to save your updated color
     // think about where will you get the id from...
     // where is is saved right now?
