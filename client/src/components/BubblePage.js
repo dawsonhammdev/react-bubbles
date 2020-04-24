@@ -12,10 +12,10 @@ const BubblePage = () => {
   
   useEffect(() => {
     axiosWithAuth()
-      .get("/api/colors")
+      .get(`/api/colors`)
       .then( res => {
         setColorList(res.data);
-        console.log({colorList})
+        console.log({setColorList})
       })
       .catch(err => console.log(err))
   }, [])
